@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "CreatedDate",
+  "policyDefinitionId": "/subscriptions/4f33d452-a160-4530-8ad1-b5a6a3419ebe/providers/Microsoft.Authorization/policyDefinitions/b0ef467b-9cdf-44e2-8953-13ddd93223c2",
+  "scope": "/subscriptions/4f33d452-a160-4530-8ad1-b5a6a3419ebe",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Yoann GUILLO",
+   "parameterScopes": {},
+   "createdBy": "47d549e3-95d9-4b13-bf00-af2553fe143d",
+   "createdOn": "2021-03-10T17:20:47.0616878Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/4f33d452-a160-4530-8ad1-b5a6a3419ebe/providers/Microsoft.Authorization/policyAssignments/91626dea717541bcaa2cd0cf",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "91626dea717541bcaa2cd0cf"
+}

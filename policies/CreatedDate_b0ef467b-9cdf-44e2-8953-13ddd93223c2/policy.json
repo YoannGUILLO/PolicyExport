@@ -1,0 +1,38 @@
+{
+ "properties": {
+  "displayName": "CreatedDate",
+  "policyType": "Custom",
+  "mode": "All",
+  "description": "Add a tag CreatedDate",
+  "metadata": {
+   "category": "Tags",
+   "createdBy": "47d549e3-95d9-4b13-bf00-af2553fe143d",
+   "createdOn": "2021-03-10T17:20:32.2947866Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyRule": {
+   "if": {
+    "allOf": [
+     {
+      "field": "tags['CreatedDate']",
+      "exists": "false"
+     }
+    ]
+   },
+   "then": {
+    "effect": "append",
+    "details": [
+     {
+      "field": "tags['CreatedDate']",
+      "value": "[utcNow()]"
+     }
+    ]
+   }
+  }
+ },
+ "id": "/subscriptions/4f33d452-a160-4530-8ad1-b5a6a3419ebe/providers/Microsoft.Authorization/policyDefinitions/b0ef467b-9cdf-44e2-8953-13ddd93223c2",
+ "type": "Microsoft.Authorization/policyDefinitions",
+ "name": "b0ef467b-9cdf-44e2-8953-13ddd93223c2"
+}
